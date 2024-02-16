@@ -1,0 +1,22 @@
+/* Set the text color to white */
+.nav-underline .nav-item .nav-link {
+    color: #bd2828;
+  }
+  
+  /* Set the underline color to red */
+  .nav-underline .nav-item .nav-link.active::after,
+  .nav-underline .nav-item .nav-link:hover::after {
+    background-color: #a22020; /* Red */
+  }
+  
+  /* Make container class */
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Adjust padding for better spacing */
+  .nav-underline .nav-item .nav-link {
+    padding: 2rem 1rem;
+  }
+  
